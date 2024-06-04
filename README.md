@@ -70,7 +70,7 @@ Dollar_rate VARCHAR(60),)
 ![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/484a568d-e891-4ada-92df-a359803f9b6a)<br>
 ![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/969c50a6-764c-4b80-add9-edbf0dc5fa70)
 
-Код создания БД в файле - Create_table.sql
+Код создания БД в файле - Create_table.sql<br>
 Парсер для торговой площадки Steam - parser.py
 
 
