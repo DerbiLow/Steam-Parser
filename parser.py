@@ -9,7 +9,7 @@ admin_choice = 10
 print (f"Hi! This is a parser for the Steam trading platform")
 
 while choice !=0:
-    conn = pyodbc.connect (r"Driver={SQL Server};Server=LAPTOP-1APQ4KHQ\SQLEXPRESS;Database=steam_parser;Trusted_Connection=yes;")
+    conn = pyodbc.connect (r"Driver={SQL Server};Server='''Server_name'''\SQLEXPRESS;Database=steam_parser;Trusted_Connection=yes;")
     cursor = conn.cursor()
     print (f"Select a menu item", '\n', "1. CS2 Skin Parsing", '\n', "2. Dota 2 Skin Parsing", '\n',"3. Rust Skin Parsing", '\n', "4. PUBG Skin Parsing", '\n', "5. Working with the databases", '\n', "0. Exit", '\n')
     choice = input("Your choice --> ")
@@ -74,7 +74,7 @@ while choice !=0:
        conn.close()
     elif choice == 5:
         while admin_choice != 0:
-            conn = pyodbc.connect(r"Driver={SQL Server};Server=LAPTOP-1APQ4KHQ\SQLEXPRESS;Database=steam_parser;Trusted_Connection=yes;")
+            conn = pyodbc.connect(r"Driver={SQL Server};Server='''Server_name'''\SQLEXPRESS;Database=steam_parser;Trusted_Connection=yes;")
             cursor = conn.cursor()
             print("Select a menu item", '\n', "1. View information", "\n", "2. Add information", "\n", "3. Delete information", "\n", "0. Exit to main menu", "\n")
             admin_choice = input("Your choice --> ")
