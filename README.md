@@ -32,9 +32,11 @@ Price VARCHAR (60),
 Parsing_time VARCHAR (60),
 Dollar_rate VARCHAR(60),)
 
-Парсер написан на Python с использованием сторонних библиотек для чтения HTML, а также для взаимодействия с Microsoft SQL.
-При запуске появляется меню.
+Парсер написан на Python с использованием сторонних библиотек для чтения HTML, а также для взаимодействия с Microsoft SQL. Подключение БД к PY скрипту делал на основе гайдов на Youtube. 
 
+
+При запуске появляется меню. <br>
+![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/d905eeed-a7d2-4be3-939e-98fcb8fa49b2)
 
 В режиме парсинга пользователь вводит парсинг-запрос, а также количество страниц, которые будут парсить.<br>
 ![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/792127da-0276-4ef6-96e1-a20a6d967f0f)<br>
@@ -68,6 +70,7 @@ Dollar_rate VARCHAR(60),)
 ![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/484a568d-e891-4ada-92df-a359803f9b6a)<br>
 ![image](https://github.com/DerbiLow/Steam-Parser/assets/126500303/969c50a6-764c-4b80-add9-edbf0dc5fa70)
 
-Ссылка на видео демонстрацию - https://disk.yandex.ru/i/r1IclOAkxg-V_Q 
+Код создания БД в файле - Create_table.sql
+Парсер для торговой площадки Steam - parser.py
 
 
